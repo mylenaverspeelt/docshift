@@ -92,7 +92,6 @@
 }
 
 .header-info-data {
-	margin: 0 9rem 0.5rem 0.5rem;
 	display: flex;
 }
 
@@ -110,7 +109,7 @@
 	display: none !important;
 }
 
-.ui-fieldset legend.ui-state-default {
+.patient-identification {
 	background: var(--light-blue);
 	color: var(--black);
 	cursor: pointer;
@@ -120,9 +119,10 @@
 	font-family: 'Geologica', sans-serif;
 	text-shadow: none;
 	box-shadow: none;
+	padding: 0.8rem;
 }
 
-.ui-fieldset legend.ui-state-default:hover {
+.patient-identification:hover {
 	background: var(--medium-blue);
 	color: var(--light-gray);
 }
@@ -171,4 +171,9 @@
 
 .content-overflow {
 	overflow-y: auto;
+}
+
+.collapse{
+	margin-bottom: 1rem;
+	
 }
